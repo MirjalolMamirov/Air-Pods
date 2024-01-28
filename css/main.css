@@ -1,0 +1,331 @@
+/* GLOBAL STYLE */
+@import url(./fonts.css);
+
+:root {
+    --light_dark: #282828;
+    --main_bg_color: #151515;
+    --montserrat: "Montserrat";
+    --prosto-one: "Prosto_One"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+body {
+    font-family: var(--montserrat);
+}
+
+/* GLOBAL STYLE */
+
+/* SITE-HEADER */
+
+.site-header {
+    background-color: var(--light_dark);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* .site-header__nav { */
+/* padding-top: 6px; */
+/* padding-bottom: 6px; */
+/* } */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-list,
+.all-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.logo {
+    object-fit: cover;
+    width: 100px;
+    height: 53px;
+}
+
+.list-link {
+    color: #FFF;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-icon__list {
+    display: flex;
+    align-items: center;
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.icon-list__image {
+    /* width: 20px; */
+    /* height: 20px; */
+    object-fit: cover;
+}
+
+/* SITE-HEADER */
+
+/* SITE-HEADER-HERO */
+.site-header-hero {
+    background-image: url(../img/Header-bg.png);
+    padding-top: 204px;
+    padding-bottom: 264px;
+    /* background-size: cover; */
+}
+
+.site-header-hero__box {
+    text-align: center;
+}
+
+.site-header-hero__title {
+    color: #FFF;
+    font-family: var(--prosto-one);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-bottom: 38px;
+}
+
+.btn {
+    padding: 13px 14px 13px 14px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.site-header-hero__btn {
+    color: #171718;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-text {
+    margin-right: 11px;
+}
+
+.btn-image {
+    width: 16px;
+    height: 15px;
+}
+
+/* /SITE-HEADER-HERO */
+
+/* MAIN */
+.site-main {
+    background-color: var(--main_bg_color);
+}
+
+.airpods-1 {
+    padding-top: 24px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.airpods-1__text {
+    max-width: 538px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--montserrat);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.airpods-1__media {
+    width: 552px;
+    height: 335px;
+
+}
+
+.airpods-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.airpods-2__media {
+    width: 457px;
+    height: 408px;
+
+}
+
+.airpods-2__text {
+    max-width: 540px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--montserrat);
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.airpods-3 {
+    padding-top: 50px;
+    padding-bottom: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.airpods-3__use__text {
+    max-width: 333px;
+    width: 100%;
+    color: #FFF;
+    text-align: right;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.line {
+    display: inline-block;
+    width: 61px;
+    height: 1px;
+    margin-left: 13px;
+    margin-bottom: 11px;
+    background-color: #C4C4C4;;
+    
+}
+.left {
+    margin-right: 14px;
+}
+
+.right {
+    margin-left: 14px;
+}
+
+.airpods-3__designe__text {
+    max-width: 333px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.airpods-3__media {
+    width: 268px;
+    height: 375px;
+}
+
+.adds {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 30px;
+    padding-top: 79px;
+    padding-bottom: 55px;
+}
+
+.add {
+    padding: 15px 47px 15px 47px;
+    border-radius: 6px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add__title {
+    color: #000;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.add__media {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add__image {
+    /* width: 127.5px; */
+    height: 167px;
+    margin-bottom: 10px;
+}
+
+.add__cost {
+    color: #000;
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.add__btn {
+    padding: 7px 57px 7px 57px;
+    background-color: var(--main_bg_color);
+    color: #FFF;
+}
+
+.add-btn__link {
+    color: #fff;
+    font-family: var(--montserrat);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* /MAIN */
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: var(--light_dark);
+}
+
+.footer-box {
+    padding-top: 81px;
+    padding-bottom: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-cards {
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+}
+
+.footer-card {
+    width: 70px;
+    height: 55px;
+}
+
+/* /FOOTER */
